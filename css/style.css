@@ -1,4 +1,35 @@
 body {
-  background-color: #333;
-  color: #ddd;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(https://res.cloudinary.com/dhdvrvrto/image/upload/v1647283526/alevision-co-7ojyp-IXW7w-unsplash_ovxqlf.jpg);
+  background-size: cover;
+  /* background-color: #333; */
+  color: #ccc;
 }
+
+#container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+
+p {
+  font-family: "Muli", sans-serif;
+  font-size: 16px;
+}
+
+header {
+  width: 400px;
+  text-align: center;
+}
+
+/* Font-Family: 'Merriweather', Serif;
+Font-Size: 46px;
+Font-Family: 'Muli', Sans-Serif;
+Font-Size: 16px; */
